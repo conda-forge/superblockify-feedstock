@@ -36,14 +36,14 @@ Current release info
 Installing superblockify
 ========================
 
-Installing `superblockify` from the `conda-forge/label/superblockify_rc` channel can be achieved by adding `conda-forge/label/superblockify_rc` to your channels with:
+Installing `superblockify` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
-conda config --add channels conda-forge/label/superblockify_rc
+conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge/label/superblockify_rc` channel has been enabled, `superblockify` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `superblockify` can be installed with `conda`:
 
 ```
 conda install superblockify
@@ -58,26 +58,26 @@ mamba install superblockify
 It is possible to list all of the versions of `superblockify` available on your platform with `conda`:
 
 ```
-conda search superblockify --channel conda-forge/label/superblockify_rc
+conda search superblockify --channel conda-forge
 ```
 
 or with `mamba`:
 
 ```
-mamba search superblockify --channel conda-forge/label/superblockify_rc
+mamba search superblockify --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search superblockify --channel conda-forge/label/superblockify_rc
+mamba repoquery search superblockify --channel conda-forge
 
 # List packages depending on `superblockify`:
-mamba repoquery whoneeds superblockify --channel conda-forge/label/superblockify_rc
+mamba repoquery whoneeds superblockify --channel conda-forge
 
 # List dependencies of `superblockify`:
-mamba repoquery depends superblockify --channel conda-forge/label/superblockify_rc
+mamba repoquery depends superblockify --channel conda-forge
 ```
 
 
