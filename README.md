@@ -3,7 +3,7 @@ About superblockify-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/superblockify-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/NERDSITU/superblockify
+Home: https://superblockify.city/
 
 Package license: AGPL-3.0-or-later
 
@@ -11,7 +11,7 @@ Summary: Automated Generation, Visualization, and Analysis of potential Superblo
 
 Development: https://github.com/NERDSITU/superblockify
 
-Documentation: https://nerdsitu.github.io/superblockify/
+Documentation: https://superblockify.city/
 
 Current build status
 ====================
