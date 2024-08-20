@@ -43,11 +43,11 @@ test:
     - pip
 
 about:
-  home: https://github.com/NERDSITU/superblockify
+  home: https://superblockify.city/
   summary: Automated Generation, Visualization, and Analysis of potential Superblocks in Cities
   license: AGPL-3.0-or-later
   license_file: LICENSE
-  doc_url: https://nerdsitu.github.io/superblockify/
+  doc_url: https://superblockify.city/
   dev_url: https://github.com/NERDSITU/superblockify
 
 extra:
