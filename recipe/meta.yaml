@@ -1,5 +1,5 @@
 {% set name = "superblockify" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/superblockify-{{ version }}.tar.gz
-  sha256: 32ef497361502d3f57480512ee987a9463eb296e265aef9fc751fc4ebb1bd338
+  sha256: 418a9834b827a77ce5981603db1ddc1a2f612dee61a8cc7190964deb5109ce52
 
 build:
   noarch: python
