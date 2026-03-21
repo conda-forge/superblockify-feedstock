@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - osmnx >=1.6.0
+    - osmnx >=2.1.0
     - geopandas
     - rasterio
     - shapely
@@ -50,7 +50,7 @@ about:
   license: AGPL-3.0-or-later
   license_file: LICENSE
   doc_url: https://superblockify.city/
-  dev_url: https://github.com/NERDSITU/superblockify
+  dev_url: https://github.com/BikeNetKit/superblockify
 
 extra:
   recipe-maintainers:
